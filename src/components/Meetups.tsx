@@ -16,6 +16,28 @@ const Meetups = () => {
           </p>
         </div>
 
+        {/* Photo showcase */}
+        <div className="mb-12">
+          <div className="relative overflow-hidden rounded-3xl shadow-warm max-w-4xl mx-auto">
+            <img 
+              src="/lovable-uploads/ee66a2e6-1fa2-4068-8ece-0371cfc461ec.png"
+              alt="SAMMU meetup showing families relaxing in our bright, welcoming community space"
+              className="w-full h-auto object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+            <div className="absolute bottom-6 left-6 right-6 text-center">
+              <div className="bg-card/90 backdrop-blur-sm rounded-2xl p-6 border border-border/50">
+                <h3 className="text-xl font-bold text-foreground mb-2">
+                  Welcome to Our Monthly Meetups
+                </h3>
+                <p className="text-muted-foreground">
+                  A safe, friendly space where families with multiples come together
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Meetup Details */}
           <div className="space-y-8">

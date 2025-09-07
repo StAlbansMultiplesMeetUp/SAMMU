@@ -26,6 +26,21 @@ const Community = () => {
     }
   ];
 
+  const galleryImages = [
+    {
+      src: "/lovable-uploads/c22ac588-754f-4583-8573-4a5b4a11f36c.png",
+      alt: "Children playing on colorful educational play mats with parents nearby"
+    },
+    {
+      src: "/lovable-uploads/c7aa25ee-ccf6-4423-99e2-17f227b88013.png",
+      alt: "Parents and toddlers enjoying playtime together in our community space"
+    },
+    {
+      src: "/lovable-uploads/9bf93e9d-538b-49d2-9889-373687fab01c.png",
+      alt: "Children exploring and learning on our vibrant number and shape play mats"
+    }
+  ];
+
   return (
     <section id="community" className="py-20 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -51,6 +66,28 @@ const Community = () => {
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Photo Gallery Section */}
+        <div className="mb-16">
+          <h3 className="text-2xl font-bold text-foreground text-center mb-8">
+            See Our Community in Action
+          </h3>
+          <div className="grid md:grid-cols-3 gap-6">
+            {galleryImages.map((image, index) => (
+              <div key={index} className="relative overflow-hidden rounded-2xl shadow-gentle group">
+                <img 
+                  src={image.src} 
+                  alt={image.alt}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              </div>
+            ))}
+          </div>
+          <p className="text-center text-muted-foreground mt-6">
+            Real moments from our SAMMU meetups - families connecting, children playing, and friendships growing
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">

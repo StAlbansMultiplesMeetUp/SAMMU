@@ -81,19 +81,31 @@ const About = () => {
                 </div>
               </div>
               <div className="text-center lg:text-right">
-                <div className="inline-block bg-card rounded-3xl p-8 shadow-gentle">
-                  <div className="space-y-6">
-                    <div>
-                      <p className="text-3xl font-bold text-primary">200+</p>
-                      <p className="text-muted-foreground">Families in our community</p>
-                    </div>
-                    <div>
-                      <p className="text-3xl font-bold text-primary">Monthly</p>
-                      <p className="text-muted-foreground">Meetups every Tuesday</p>
-                    </div>
-                    <div>
-                      <p className="text-3xl font-bold text-primary">Years</p>
-                      <p className="text-muted-foreground">Of community support</p>
+                <div className="relative">
+                  <img 
+                    src="/lovable-uploads/b48d0535-4b17-4d29-b217-6ff3d10390d3.png"
+                    alt="Parents and children enjoying social time together at SAMMU meetup"
+                    className="w-full h-auto rounded-3xl shadow-gentle"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-3xl"></div>
+                  
+                  {/* Overlay stats */}
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <div className="bg-card/90 backdrop-blur-sm rounded-2xl p-6 border border-border/50">
+                      <div className="grid grid-cols-3 gap-4 text-center">
+                        <div>
+                          <p className="text-2xl font-bold text-primary">200+</p>
+                          <p className="text-xs text-muted-foreground">Families</p>
+                        </div>
+                        <div>
+                          <p className="text-2xl font-bold text-primary">Monthly</p>
+                          <p className="text-xs text-muted-foreground">Meetups</p>
+                        </div>
+                        <div>
+                          <p className="text-2xl font-bold text-primary">Years</p>
+                          <p className="text-xs text-muted-foreground">Of support</p>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
