@@ -1,9 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MessageCircle, Heart, Share2, HandHeart } from "lucide-react";
-import sammuGallery1 from "@/assets/sammu-gallery-1.jpg";
-import sammuGallery2 from "@/assets/sammu-gallery-2.jpg";
-import sammuGallery3 from "@/assets/sammu-gallery-3.jpg";
 
 const Community = () => {
   const communityFeatures = [
@@ -31,15 +28,15 @@ const Community = () => {
 
   const galleryImages = [
     {
-      src: sammuGallery1,
+      src: "/lovable-uploads/c22ac588-754f-4583-8573-4a5b4a11f36c.png",
       alt: "Children playing on colorful educational play mats with parents nearby"
     },
     {
-      src: sammuGallery2,
+      src: "/lovable-uploads/c7aa25ee-ccf6-4423-99e2-17f227b88013.png",
       alt: "Parents and toddlers enjoying playtime together in our community space"
     },
     {
-      src: sammuGallery3,
+      src: "/lovable-uploads/9bf93e9d-538b-49d2-9889-373687fab01c.png",
       alt: "Children exploring and learning on our vibrant number and shape play mats"
     }
   ];

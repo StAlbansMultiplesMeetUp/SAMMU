@@ -1,6 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Baby, Users, MessageCircle, Calendar } from "lucide-react";
-import sammuAbout from "@/assets/sammu-about.jpg";
 
 const About = () => {
   const features = [
@@ -84,7 +83,7 @@ const About = () => {
               <div className="text-center lg:text-right">
                 <div className="relative">
                   <img 
-                    src={sammuAbout}
+                    src="/lovable-uploads/b48d0535-4b17-4d29-b217-6ff3d10390d3.png"
                     alt="Parents and children enjoying social time together at SAMMU meetup"
                     className="w-full h-auto rounded-3xl shadow-gentle"
                   />

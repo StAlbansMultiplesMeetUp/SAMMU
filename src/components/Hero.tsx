@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Heart, Users, Coffee } from "lucide-react";
-import sammuHero from "@/assets/sammu-hero.jpg";
 
 const Hero = () => {
   return (
@@ -71,7 +70,7 @@ const Hero = () => {
           <div className="relative">
             <div className="relative overflow-hidden rounded-3xl shadow-warm">
               <img 
-                src={sammuHero} 
+                src="/lovable-uploads/5228a267-a002-4ede-a734-2ae73e56185d.png" 
                 alt="SAMMU community meetup with families and children playing together in our welcoming space"
                 className="w-full h-auto object-cover"
               />
