@@ -47,6 +47,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // SAMMU community colors
+        "warm-yellow": "hsl(var(--warm-yellow))",
+        "soft-blue": "hsl(var(--soft-blue))",
+        "gentle-blue": "hsl(var(--gentle-blue))",
+        "sunshine": "hsl(var(--sunshine))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
