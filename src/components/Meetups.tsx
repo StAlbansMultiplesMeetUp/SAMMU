@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Clock, MapPin, Coffee, Gamepad2, Users, Speaker } from "lucide-react";
+import sammuMeetup from "@/assets/sammu-meetup.jpg";
 
 const Meetups = () => {
   return (
@@ -20,7 +21,7 @@ const Meetups = () => {
         <div className="mb-12">
           <div className="relative overflow-hidden rounded-3xl shadow-warm max-w-4xl mx-auto">
             <img 
-              src="/lovable-uploads/ee66a2e6-1fa2-4068-8ece-0371cfc461ec.png"
+              src={sammuMeetup}
               alt="SAMMU meetup showing families relaxing in our bright, welcoming community space"
               className="w-full h-auto object-cover"
             />
