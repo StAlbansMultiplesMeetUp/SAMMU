@@ -1,4 +1,5 @@
-import { Facebook, Instagram, Mail, Heart, Baby } from "lucide-react";
+import { Facebook, Instagram, Mail, Heart } from "lucide-react";
+import sammuLogo from "@/assets/sammu-logo.png";
 
 const Footer = () => {
   return (
@@ -8,9 +9,11 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="h-10 w-10 bg-background/20 rounded-full flex items-center justify-center">
-                <Baby className="h-6 w-6" />
-              </div>
+              <img 
+                src={sammuLogo} 
+                alt="SAMMU Logo" 
+                className="h-10 w-auto brightness-0 invert"
+              />
               <div>
                 <h3 className="text-xl font-bold">SAMMU</h3>
                 <p className="text-sm opacity-80">St Albans Multiples Meet Up</p>

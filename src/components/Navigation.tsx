@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Facebook, Instagram, Mail, Baby } from "lucide-react";
+import { Menu, X, Facebook, Instagram, Mail } from "lucide-react";
+import sammuLogo from "@/assets/sammu-logo.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,9 +12,11 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <div className="h-10 w-10 bg-gradient-to-br from-warm-yellow to-soft-blue rounded-full flex items-center justify-center">
-              <Baby className="h-6 w-6 text-primary" />
-            </div>
+            <img 
+              src={sammuLogo} 
+              alt="SAMMU Logo" 
+              className="h-10 w-auto"
+            />
             <div>
               <h1 className="text-xl font-bold text-foreground">SAMMU</h1>
               <p className="text-xs text-muted-foreground hidden sm:block">St Albans Multiples Meet Up</p>
