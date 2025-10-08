@@ -21,7 +21,7 @@ const About = () => {
     {
       icon: Calendar,
       title: "Regular Meetups",
-      description: "Monthly Tuesday meetups with coffee, biscuits, toys, and occasional guest speakers in a welcoming environment."
+      description: "Monthly Monday meetups with coffee, biscuits, toys, and occasional guest speakers in a welcoming environment."
     }
   ];
 

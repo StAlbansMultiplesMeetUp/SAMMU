@@ -124,7 +124,7 @@ const Contact = () => {
                   <Clock className="h-5 w-5 text-primary mt-0.5" />
                   <div>
                     <p className="font-medium text-foreground">When</p>
-                    <p className="text-muted-foreground text-sm">Monthly meetups, typically on Tuesdays</p>
+                    <p className="text-muted-foreground text-sm">Monthly meetups, typically on Mondays</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
