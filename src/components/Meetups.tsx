@@ -11,7 +11,7 @@ const Meetups = () => {
             Monthly Meetups
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join us for our regular monthly meetups, typically held on Tuesdays. 
+            Join us for our regular monthly meetups, typically held on Mondays. 
             A welcoming space for families to connect, children to play, and parents to share experiences.
           </p>
         </div>
@@ -50,7 +50,7 @@ const Meetups = () => {
               </CardHeader>
               <CardContent className="space-y-3">
                 <p className="text-foreground/80">
-                  <strong>Monthly meetups</strong> - typically on Tuesdays
+                  <strong>Monthly meetups</strong> - typically on Mondays
                 </p>
                 <p className="text-muted-foreground text-sm">
                   Check our Facebook group or WhatsApp for exact dates and any updates
